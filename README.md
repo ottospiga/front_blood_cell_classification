@@ -1,7 +1,21 @@
-# checks-list
-## a little play with react
+# front_blood_cell_classification
+## a submodule from the blood_cell_classification repo
 
---------------------------------
+This is a next/react frontend application
+
+It's was develop using node v19.8.1 and npm
+
+To run the application install the dependecies:
+
+```bash
+npm i
+```
+
+And to run the application:
+
+```bash
+npm run dev
+```
 --------------------------------
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
