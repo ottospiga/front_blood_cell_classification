@@ -1,8 +1,8 @@
 import Provider  from './providers';
 
 export const metadata = {
-  title: 'check_list',
-  description: 'check_list',
+  title: 'blood_cell_classification',
+  description: 'blood_cell_classification',
   httpEquiv: 'Strict-Transport-Security',
   content: 'max-age=31536000; includeSubDomains; preload'
 }
