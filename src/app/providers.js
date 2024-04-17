@@ -8,11 +8,11 @@ export default function Providers({ children }) {
 
   return (
     <LocalizationProvider dateAdapter={AdapterDayjs}>
-      <VariablesContext>
+      {/* <VariablesContext> */}
         <ThemeRegistry>
           {children}
         </ThemeRegistry>
-      </VariablesContext>
+      {/* </VariablesContext> */}
     </LocalizationProvider>
   );
 }

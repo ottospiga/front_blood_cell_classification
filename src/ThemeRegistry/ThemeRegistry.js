@@ -1,14 +1,15 @@
 'use client';
-import React, { useMemo, useState } from 'react';
+import React, {createContext, useMemo, useState } from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { CssBaseline } from '@mui/material';
 
-import { ColorModeContext } from '@/components/ChangeThemeButtom';
+// import { ColorModeContext } from '@/components/ChangeThemeButtom';
 import { themesOptions, baseOptions } from "../Global/theme";
 import { THEMES } from "../Global/constants";
 
+export const ColorModeContext = createContext({ toggleColorMode: () => {} });
+
 export default function ThemeRegistry({ children }) {
-  // const [mode, setMode] = React.useState('dark');
   // const colorMode = React.useMemo(
   //   () => ({ toggleColorMode: () => {
   //       setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));
