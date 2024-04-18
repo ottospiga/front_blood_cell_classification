@@ -1,4 +1,5 @@
 import Provider  from './providers';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata = {
   title: 'blood_cell_classification',
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         <Provider>
           {children}
         </Provider>
+        <SpeedInsights/>
       </body>
 
     </html>

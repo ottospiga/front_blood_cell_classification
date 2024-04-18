@@ -17,6 +17,7 @@
     "@mui/material": "^5.14.14",
     "@mui/x-data-grid": "^6.16.2",
     "@mui/x-date-pickers": "^6.17.0",
+    "@vercel/speed-insights": "^1.0.10",
     "axios": "^1.6.0",
     "cookies-next": "^4.0.0",
     "dayjs": "^1.11.10",
